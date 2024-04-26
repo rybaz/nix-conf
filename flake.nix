@@ -6,10 +6,6 @@
   };
 
   inputs = {
-    # There are many ways to reference flake inputs.
-    # The most widely used is `github:owner/name/reference`,
-    # which represents the GitHub repository URL + branch/commit-id/tag.
-
     # Official NixOS package source, using nixos-unstable branch here
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     # home-manager, used for managing user configuration
@@ -20,9 +16,6 @@
     };
   };
 
-  # `outputs` are all the build result of the flake.
-  # The `@` syntax here is used to alias the attribute set of the
-  # inputs's parameter, making it convenient to use inside the function.
   outputs = { self, nixpkgs, home-manager, ... }@inputs: {
     nixosConfigurations = {
       "morgoth" = nixpkgs.lib.nixosSystem {
@@ -51,6 +44,9 @@
           }
         ];
       };
+    };
+  };
+}
 
 # DOCUMENTATION
         # The Nix module system can modularize configuration,
@@ -92,6 +88,3 @@
         # you must use `specialArgs` by uncomment the following line:
         #
         # specialArgs = {...};  # pass custom arguments into all sub module.
-    };
-  };
-}

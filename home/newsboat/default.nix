@@ -1,7 +1,7 @@
 { pkgs, config, ... }:
 
 {
-  home.file = { ".config/newsboat/urls".source = ./urls; };
+  # home.file = { ".config/newsboat/urls".source = ./urls; };
 
   programs.newsboat = { 
     enable = true;

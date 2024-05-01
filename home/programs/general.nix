@@ -9,7 +9,8 @@
     ncmpcpp         # music player
     neovim          # god mode
     pass            # password manager
-    pinentry        # pin entry for pass
+    pass-otp        # OTP for pass
+    pinentry-curses # terminal pin entry for pass
     signal-desktop  # signal
     syncthing       # decentralized file/folder sync
     yt-dlp          # download/view YouTube in terminal

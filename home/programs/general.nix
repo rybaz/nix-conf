@@ -8,7 +8,6 @@
     mpd             # music player daemon
     ncmpcpp         # music player
     neovim          # god mode
-    pass            # password manager
     signal-desktop  # signal
     syncthing       # decentralized file/folder sync
     yt-dlp          # download/view YouTube in terminal

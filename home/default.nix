@@ -11,6 +11,7 @@
     ./newsboat
     ./neovim
     ./newsboat
+    ./pass
     ./programs
     ./tmux
     ./wget

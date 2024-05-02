@@ -9,7 +9,6 @@
     ncmpcpp         # music player
     neovim          # god mode
     signal-desktop  # signal
-    syncthing       # decentralized file/folder sync
     yt-dlp          # download/view YouTube in terminal
     zathura         # PDF reader
     zbar            # read QR codes

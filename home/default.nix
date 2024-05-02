@@ -7,6 +7,7 @@
     ./bat
     ./fish
     ./git
+    ./less/
     ./mpv
     ./newsboat
     ./neovim

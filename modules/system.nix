@@ -78,6 +78,13 @@
     #media-session.enable = true;
   };
 
+  services.mpd = {
+    enable = true;
+    musicDirectory = "/home/ryan/music";
+    extraConfig = '' '';
+    startWhenNeeded = true;
+  };
+
   # Enable touchpad support (enabled default in most desktopManager).
   # services.xserver.libinput.enable = true;
 

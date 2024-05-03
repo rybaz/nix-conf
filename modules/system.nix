@@ -83,12 +83,8 @@
     network.listenAddress = "127.0.0.1";
     network.port = 6600;
     # startWhenNeeded = true;
-    user = "ryan";
     musicDirectory = "/home/ryan/music";
-    extraConfig = ''
-      db_file "/home/ryan/config/mpd/mpd.db"
-      log_file "syslog"
-    '';
+    extraConfig = '' '';
   };
 
   # Enable touchpad support (enabled default in most desktopManager).

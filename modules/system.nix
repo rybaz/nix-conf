@@ -85,6 +85,7 @@
       db_file "~/.config/mpd/mpd.db"
       log_file "syslog"
     '';
+    network.listenAddress = "127.0.0.1";
     startWhenNeeded = true;
   };
 

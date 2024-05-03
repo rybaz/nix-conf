@@ -9,6 +9,6 @@
     settings = {
       ncmpcpp_directory = "~/.local/share/ncmpcpp";
     };
-    mpdMusicDir = "/home/ryan/music";
+    mpdMusicDir = "/var/lib/mpd/music";
   };
 }

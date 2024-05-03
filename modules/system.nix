@@ -83,7 +83,7 @@
     network.listenAddress = "127.0.0.1";
     network.port = 6600;
     startWhenNeeded = true;
-    musicDirectory = "~/music";
+    musicDirectory = "/home/ryan/music";
     extraConfig = ''
       db_file "~/.config/mpd/mpd.db"
       log_file "syslog"

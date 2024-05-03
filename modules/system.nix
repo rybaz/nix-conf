@@ -81,7 +81,10 @@
   services.mpd = {
     enable = true;
     musicDirectory = "/home/ryan/music";
-    extraConfig = '' '';
+    extraConfig = ''
+      db_file "~/.config/mpd/mpd.db"
+      log_file "syslog"
+    '';
     startWhenNeeded = true;
   };
 

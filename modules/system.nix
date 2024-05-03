@@ -80,13 +80,14 @@
 
   services.mpd = {
     enable = true;
-    musicDirectory = "/home/ryan/music";
+    network.listenAddress = "127.0.0.1";
+    network.port = 6600;
+    startWhenNeeded = true;
+    musicDirectory = "~/music";
     extraConfig = ''
       db_file "~/.config/mpd/mpd.db"
       log_file "syslog"
     '';
-    network.listenAddress = "127.0.0.1";
-    startWhenNeeded = true;
   };
 
   # Enable touchpad support (enabled default in most desktopManager).

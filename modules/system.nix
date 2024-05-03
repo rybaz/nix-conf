@@ -82,7 +82,7 @@
     enable = true;
     network.listenAddress = "127.0.0.1";
     network.port = 6600;
-    startWhenNeeded = true;
+    # startWhenNeeded = true;
     musicDirectory = "/home/ryan/music";
     extraConfig = ''
       db_file "~/.config/mpd/mpd.db"

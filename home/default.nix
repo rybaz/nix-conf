@@ -9,7 +9,7 @@
     ./git
     ./less
     ./mpv
-    ./ncmpcpp
+    # ./ncmpcpp
     ./newsboat
     ./neovim
     ./newsboat

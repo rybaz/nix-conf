@@ -3,6 +3,7 @@
 {
   home.packages = with pkgs; [
     # core
+    cmus            # music
     firefox         # browser
     links2          # text browser
     neovim          # god mode

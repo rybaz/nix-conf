@@ -78,14 +78,14 @@
     #media-session.enable = true;
   };
 
-  services.mpd = {
-    enable = true;
-    network.listenAddress = "127.0.0.1";
-    network.port = 6600;
-    # startWhenNeeded = true;
-    # musicDirectory = "/home/ryan/music";
-    extraConfig = '' '';
-  };
+  # services.mpd = {
+  #   enable = true;
+  #   network.listenAddress = "127.0.0.1";
+  #   network.port = 6600;
+  #   # startWhenNeeded = true;
+  #   # musicDirectory = "/home/ryan/music";
+  #   extraConfig = '' '';
+  # };
 
   # Enable touchpad support (enabled default in most desktopManager).
   # services.xserver.libinput.enable = true;

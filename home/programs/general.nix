@@ -5,8 +5,6 @@
     # core
     firefox         # browser
     links2          # text browser
-    mpd             # music player daemon
-    ncmpcpp         # music player
     neovim          # god mode
     signal-desktop  # signal
     yt-dlp          # download/view YouTube in terminal

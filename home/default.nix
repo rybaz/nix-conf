@@ -10,7 +10,6 @@
     ./less
     ./mpv
     # ./ncmpcpp
-    ./newsboat
     ./neovim
     ./newsboat
     ./pass

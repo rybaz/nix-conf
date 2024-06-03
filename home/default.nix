@@ -11,7 +11,6 @@
     ./mpv
     # ./ncmpcpp
     ./neovim
-    ./newsboat
     ./pass
     ./programs
     ./tmux

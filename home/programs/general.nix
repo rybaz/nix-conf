@@ -4,10 +4,12 @@
   home.packages = with pkgs; [
     # core
     cmus            # music
+    ffmpeg          # audio utils
     firefox         # browser
     links2          # text browser
     neovim          # god mode
     signal-desktop  # signal
+    sox             # audio utils
     yt-dlp          # download/view YouTube in terminal
     zathura         # PDF reader
     zbar            # read QR codes

@@ -20,7 +20,6 @@
       la = "ls -laF --color=auto";
       ll = "ls -lF --color=auto";
       ls = "ls -F --color=auto";
-      news = "newsboat";
       scry = "/home/ryan/files/scripts/scry.sh";
       v = "nvim";
       wget = "wget --hsts-file=\"home/ryan/.cache\"wget-hsts";

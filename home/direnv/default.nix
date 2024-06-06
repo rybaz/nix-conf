@@ -1,7 +1,7 @@
 { pkgs, config, ... }:
 
 {
-  programs.nix-direnv = {
+  programs.direnv = {
     enableFishIntegration = true;
   };
 }

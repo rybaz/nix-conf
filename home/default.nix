@@ -5,7 +5,7 @@
     ./alacritty
     ./bash
     ./bat
-    ./direnv
+    # ./direnv
     ./fish
     ./git
     ./less

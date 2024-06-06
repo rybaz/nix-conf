@@ -2,6 +2,7 @@
 
 {
   programs.direnv = {
-    enableFishIntegration = true;
+    enable = true;
+    # enableFishIntegration = true;
   };
 }

@@ -37,7 +37,6 @@
 
     # system utils
     btop
-    direnv
     gcc
     htop
     iftop

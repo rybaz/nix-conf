@@ -5,6 +5,7 @@
     ./alacritty
     ./bash
     ./bat
+    ./direnv
     ./fish
     ./git
     ./less

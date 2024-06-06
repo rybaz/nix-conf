@@ -77,7 +77,6 @@
           fish_vi_key_bindings --no-erase insert
       end
 
-      direnv hook fish | source
     '';
   };
 }

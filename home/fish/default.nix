@@ -62,7 +62,7 @@
       set -x PASSWORD_STORE_DIR "$XDG_DATA_HOME"/pass
       set -x PYTHONPYCACHEPREFIX $XDG_CACHE_HOME/python
       set -x PYTHONUSERBASE $XDG_DATA_HOME/python
-      set -x RIPGREP_CONFIG_PATH XDG_CONFIG_HOME/ripgrep/config
+      set -x RIPGREP_CONFIG_PATH $XDG_CONFIG_HOME/ripgrep/config
       set -x RLWRAP_HOME "$XDG_DATA_HOME"/rlwrap
       set -x RUSTUP_HOME "$XDG_DATA_HOME"/rustup
       set -x TERMINFO "$XDG_DATA_HOME"

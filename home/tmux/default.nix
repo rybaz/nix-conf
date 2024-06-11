@@ -34,9 +34,9 @@
       set -g renumber-windows on                                         # renumber windows after closing
       set -g status-position top                                         # status bar location
 
-      #set -g @catppuccin_flavour 'frappe'                                # mid
-      #set -g @catppuccin_flavour 'machiatto'                             # dark
-      #set -g @catppuccin_flavour 'mocha'                                 # darkest
+      #set -g @catppuccin_flavour 'frappe'                               # mid
+      #set -g @catppuccin_flavour 'machiatto'                            # dark
+      #set -g @catppuccin_flavour 'mocha'                                # darkest
     '';
   };
 }

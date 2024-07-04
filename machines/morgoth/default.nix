@@ -15,7 +15,7 @@
 
   hardware = {
       graphics.enable = true;
-      graphics.driSupport32Bit = true;
+      graphics.enable32Bit = true;
       graphics.extraPackages = with pkgs; [
           intel-media-driver
           vaapiIntel

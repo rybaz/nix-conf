@@ -14,9 +14,9 @@
     ];
 
   hardware = {
-      opengl.enable = true;
-      opengl.driSupport32Bit = true;
-      opengl.extraPackages = with pkgs; [
+      graphics.enable = true;
+      graphics.driSupport32Bit = true;
+      graphics.extraPackages = with pkgs; [
           intel-media-driver
           vaapiIntel
           vaapiVdpau

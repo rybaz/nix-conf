@@ -30,6 +30,7 @@
     git             # for linux kernel contributions of course
     jq              # JSON parser
     ripgrep         # recursively searches directories for a regex pattern
+    rclone          # mount remote folders
     rsync           # sync data
     tree
     wget
